@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this
 project adheres to [Semantic Versioning](http://semver.org/).
 
+## [11.0.0](https://github.com/terraform-google-modules/terraform-google-sql-db/compare/v10.1.0...v11.0.0) (2022-05-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add support for setting disk_autoresize_limit (#288)
+* add support for settings.active_directory_config for SQL module (#305)
+
+### Features
+
+* Add support for setting disk_autoresize_limit ([#288](https://github.com/terraform-google-modules/terraform-google-sql-db/issues/288)) ([e07f141](https://github.com/terraform-google-modules/terraform-google-sql-db/commit/e07f14155e526ee205807bb85386a1bccce50c91))
+* add support for settings.active_directory_config for SQL module ([#305](https://github.com/terraform-google-modules/terraform-google-sql-db/issues/305)) ([449f1a2](https://github.com/terraform-google-modules/terraform-google-sql-db/commit/449f1a2dbb522cda93eae8a574345356db7497f2))
+
 ## [10.1.0](https://github.com/terraform-google-modules/terraform-google-sql-db/compare/v10.0.2...v10.1.0) (2022-05-13)
 
 
